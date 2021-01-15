@@ -21,34 +21,35 @@
   "items": [
     {
       "name": "Alabama",
-      "abbreviation": "Al",
-      "capital": "Mobile",
+      "abbreviation": "AL",
+      "capital": "Montgomery",
       "nickname": "",
       "statehood_date":""
     },
     {
-      "name": "Alabama",
-      "abbreviation": "AL"
-    },
-    {
       "name": "Alaska",
-      "abbreviation": "AK"
+      "abbreviation": "AK",
+      "capital": "Juneau"
     },
     {
       "name": "Arizona",
-      "abbreviation": "AZ"
+      "abbreviation": "AZ",
+      "capital": "Phoenix"
     },
     {
       "name": "Arkansas",
-      "abbreviation": "AR"
+      "abbreviation": "AR",
+      "capital": "Little Rock"
     },
     {
       "name": "California",
-      "abbreviation": "CA"
+      "abbreviation": "CA",
+      "capital": "Sacramento"
     },
     {
       "name": "Colorado",
-      "abbreviation": "CO"
+      "abbreviation": "CO",
+      "capital": "Denver"
     },
     {
       "name": "Connecticut",
