@@ -34,6 +34,116 @@
       "letter": "d",
       "syllables": 1,
       "name": "dee"
+    },
+    {
+      "letter": "e",
+      "syllables": 1,
+      "name": "ee"
+    },
+    {
+      "letter": "f",
+      "syllables": 1,
+      "name": "ef"
+    },
+    {
+      "letter": "g",
+      "syllables": 1,
+      "name": "gee"
+    },
+    {
+      "letter": "h",
+      "syllables": 1,
+      "name": "aych"
+    },
+    {
+      "letter": "i",
+      "syllables": 1,
+      "name": "eye"
+    },
+    {
+      "letter": "j",
+      "syllables": 1,
+      "name": "jay"
+    },
+    {
+      "letter": "k",
+      "syllables": 1,
+      "name": "kay"
+    },
+    {
+      "letter": "l",
+      "syllables": 1,
+      "name": "el"
+    },
+    {
+      "letter": "m",
+      "syllables": 1,
+      "name": "em"
+    },
+    {
+      "letter": "n",
+      "syllables": 1,
+      "name": "en"
+    },
+    {
+      "letter": "o",
+      "syllables": 1,
+      "name": "oh"
+    },
+    {
+      "letter": "p",
+      "syllables": 1,
+      "name": "pee"
+    },
+    {
+      "letter": "q",
+      "syllables": 1,
+      "name": "queue"
+    },
+    {
+      "letter": "r",
+      "syllables": 1,
+      "name": "are"
+    },
+    {
+      "letter": "s",
+      "syllables": 1,
+      "name": "ess"
+    },
+    {
+      "letter": "t",
+      "syllables": 1,
+      "name": "tee"
+    },
+    {
+      "letter": "u",
+      "syllables": 1,
+      "name": "you"
+    },
+    {
+      "letter": "v",
+      "syllables": 1,
+      "name": "vee"
+    },
+    {
+      "letter": "w",
+      "syllables": 2,
+      "name": "double-you"
+    },
+    {
+      "letter": "x",
+      "syllables": 1,
+      "name": "echs"
+    },
+    {
+      "letter": "y",
+      "syllables": 1,
+      "name": "why"
+    },
+    {
+      "letter": "z",
+      "syllables": 1,
+      "name": "zee"
     }
   ]
 }
