@@ -13,11 +13,12 @@ let PORT = 30065
 let DATASETS_DIR = "datasets"
 
 let OLD_IDS = {
-    'edae2a56-9c96-4533-8bd6-df01e8c8f116':'alphabet.json'
+    'edae2a56-9c96-4533-8bd6-df01e8c8f116':'alphabet.json',
+    '9eccf847-8e4c-437f-a538-dfa4943de679':'states.json',
 }
 function convert_id(id) {
     if(OLD_IDS[id]) return OLD_IDS[id]
-    return id
+    return id+".json"
 }
 
 function log(...args) {
@@ -25,7 +26,7 @@ function log(...args) {
 }
 
 async function fetch_raw_list(id) {
-    let pth = path.join(DATASETS_DIR, 'alphabet.json')
+    let pth = path.join(DATASETS_DIR, id)
     log("reading from path",pth)
     let str = await fs.readFile(pth)
     // log("read the raw data",str)
@@ -47,3 +48,5 @@ app.listen(PORT,()=>{
 //https://api.silly.io/api/list/edae2a56-9c96-4533-8bd6-df01e8c8f116/table?list=edae2a56-9c96-4533-8bd6-df01e8c8f116&fields=letter,name,syllables&order=letter
 
 //https://api.silly.io/api/list/edae2a56-9c96-4533-8bd6-df01e8c8f116/table?list=edae2a56-9c96-4533-8bd6-df01e8c8f116&fields=letter,name,syllables&order=letter
+
+//https://api.silly.io/api/list/9eccf847-8e4c-437f-a538-dfa4943de679/table?list=9eccf847-8e4c-437f-a538-dfa4943de679&fields=abbreviation,capital,name,nickname,statehood_date&order=abbreviation
