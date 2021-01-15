@@ -1,0 +1,39 @@
+{
+  "schema": {
+    "properties": {
+      "letter": {
+        "title": "letter"
+      },
+      "name": {
+        "title": "name"
+      },
+      "syllables": {
+        "title": "syllables"
+      }
+    }
+  },
+
+
+  "items": [
+    {
+      "letter": "a",
+      "syllables": 1,
+      "name": "ay"
+    },
+    {
+      "letter": "b",
+      "syllables": 1,
+      "name": "bee"
+    },
+    {
+      "letter": "c",
+      "syllables": 1,
+      "name": "see"
+    },
+    {
+      "letter": "d",
+      "syllables": 1,
+      "name": "dee"
+    }
+  ]
+}
