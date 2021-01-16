@@ -1,0 +1,77 @@
+{
+  "schema": {
+    "properties": {
+      "name": {
+        "title": "name",
+        "type": "string"
+      },
+      "mean_radius": {
+        "title": "mean radius",
+        "type": "number",
+        "unit": "kilometer"
+      },
+      "orbital_radius": {
+        "title": "Orbital Radius",
+        "type": "number",
+        "unit": "astronomical unit"
+      },
+      "orbital_period": {
+        "title": "Orbital Period",
+        "type": "number",
+        "unit": "year"
+      }
+    }
+  },
+  "items":[
+    {
+      "name": "Mercury",
+      "mean_radius": 2440,
+      "orbital_radius": 0.3871,
+      "orbital_period": 0.2408
+    },
+    {
+      "name": "Venus",
+      "mean_radius": 6052,
+      "orbital_radius": 0.7233,
+      "orbital_period": 0.6152,
+    },
+    {
+      "name": "Earth",
+      "mean_radius": 6371,
+      "orbital_radius": 1.0,
+      "orbital_period": 1,
+    },
+    {
+      "name": "Mars",
+      "mean_radius": 3390,
+      "orbital_radius": 1.5273,
+      "orbital_period": 1.8809
+    },
+    {
+      "name": "Jupiter",
+      "mean_radius": 69911,
+      "orbital_radius": 5.2028,
+      "orbital_period": 11.862
+    },
+    {
+      "name": "Saturn",
+      "mean_radius": 58232,
+      "orbital_radius": 9.5388,
+      "orbital_period": 29.458,
+    },
+    {
+      "name": "Uranus",
+      "mean_radius": 25362,
+      "orbital_radius": 19.1914,
+      "orbital_period": 84.01,
+    },
+    {
+      "name": "Neptune",
+      "mean_radius": 24622,
+      "orbital_radius": 30.0611,
+      "orbital_period": 164.79
+    }
+
+  ]
+}
+
