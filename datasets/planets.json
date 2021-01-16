@@ -33,13 +33,13 @@
       "name": "Venus",
       "mean_radius": 6052,
       "orbital_radius": 0.7233,
-      "orbital_period": 0.6152,
+      "orbital_period": 0.6152
     },
     {
       "name": "Earth",
       "mean_radius": 6371,
       "orbital_radius": 1.0,
-      "orbital_period": 1,
+      "orbital_period": 1
     },
     {
       "name": "Mars",
@@ -57,13 +57,13 @@
       "name": "Saturn",
       "mean_radius": 58232,
       "orbital_radius": 9.5388,
-      "orbital_period": 29.458,
+      "orbital_period": 29.458
     },
     {
       "name": "Uranus",
       "mean_radius": 25362,
       "orbital_radius": 19.1914,
-      "orbital_period": 84.01,
+      "orbital_period": 84.01
     },
     {
       "name": "Neptune",
@@ -74,4 +74,3 @@
 
   ]
 }
-
