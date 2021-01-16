@@ -39,7 +39,7 @@ async function validate_dataset(file) {
                 // if property is date, check not empty, check can parse, warn
                 let now = new Date()
                 let parsed = parse(value,def.format,now)
-                assert(isValid(parsed),`date isn valid ${value} by format ${def.format}`)
+                assert(isValid(parsed),`date isn't valid: ${value} by format ${def.format}`)
             }
         })
     })

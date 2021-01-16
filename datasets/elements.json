@@ -1,0 +1,52 @@
+{
+  "schema": {
+    "properties": {
+      "name": {
+        "title": "name",
+        "type": "string"
+      },
+      "number": {
+        "title": "atomic number",
+        "type": "number"
+      },
+      "weight": {
+        "title": "atomic weight",
+        "type": "number"
+      },
+      "symbol": {
+        "title": "symbol",
+        "type": "string"
+      },
+      "discovery_date": {
+        "title": "discovery date",
+        "type": "date",
+        "format": "MMMM d, yyyy"
+      },
+      "provenance": {
+        "title": "provenance",
+        "type": "url"
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Hydrogen",
+      "number": 1,
+      "weight": 1.008,
+      "symbol": "H",
+      "discovery_date": "January 1, 1671",
+      "provenance": "https://en.wikipedia.org/wiki/Hydrogen"
+    },
+    {
+      "name": "Helium",
+      "number": 2,
+      "weight": 4.002602,
+      "symbol": "He",
+      "discovery_date": "August 18, 1868",
+      "provenance": "https://en.wikipedia.org/wiki/Helium"
+    },
+    {
+
+    }
+  ]
+}
