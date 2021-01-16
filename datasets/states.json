@@ -2,7 +2,8 @@
   "schema": {
     "properties": {
       "abbreviation": {
-        "title": "abbreviation"
+        "title": "abbreviation",
+        "type": "string"
       },
       "capital": {
         "title": "capital",
@@ -15,7 +16,7 @@
       "statehood_date": {
         "title": "statehood date",
         "type": "date",
-        "format": "MMM d, YYYY"
+        "format": "MMMM d, yyyy"
       }
     }
   },
@@ -95,230 +96,230 @@
     {
       "name": "Illinois",
       "abbreviation": "IL",
-      "capital": "",
+      "capital": "Springfield",
       "statehood_date":"December 3, 1818"
     },
     {
       "name": "Indiana",
       "abbreviation": "IN",
-      "capital": "",
+      "capital": "Indianapolis",
       "statehood_date":"December 11, 1816"
     },
     {
       "name": "Iowa",
       "abbreviation": "IA",
-      "capital": "",
+      "capital": "Des Moines",
       "statehood_date":"December 28, 1846"
     },
     {
       "name": "Kansas",
       "abbreviation": "KS",
-      "capital": "",
+      "capital": "Topeka",
       "statehood_date":"January 29, 1861"
     },
     {
       "name": "Kentucky",
       "abbreviation": "KY",
       "statehood_date":"June 1, 1792",
-      "capital": ""
+      "capital": "Frankfort"
     },
     {
       "name": "Louisiana",
       "abbreviation": "LA",
       "statehood_date":"April 30, 1812",
-      "capital": ""
+      "capital": "Baton Rouge"
     },
     {
       "name": "Maine",
       "abbreviation": "ME",
       "statehood_date":"March 15, 1820",
-      "capital": ""
+      "capital": "Augusta"
     },
     {
       "name": "Maryland",
       "abbreviation": "MD",
       "statehood_date":"April 28, 1788",
-      "capital": ""
+      "capital": "Annapolis"
     },
     {
       "name": "Massachusetts",
       "abbreviation": "MA",
       "statehood_date":"February 6, 1788",
-      "capital": ""
+      "capital": "Boston"
     },
     {
       "name": "Michigan",
       "abbreviation": "MI",
       "statehood_date":"January 26, 1837",
-      "capital": ""
+      "capital": "Lansing"
     },
     {
       "name": "Minnesota",
       "abbreviation": "MN",
       "statehood_date":"May 11, 1858",
-      "capital": ""
+      "capital": "Saint Paul"
     },
     {
       "name": "Mississippi",
       "abbreviation": "MS",
       "statehood_date":"December 10, 1817",
-      "capital": ""
+      "capital": "Jackson"
     },
     {
       "name": "Missouri",
       "abbreviation": "MO",
       "statehood_date":"August 10, 1821",
-      "capital": ""
+      "capital": "Jefferson City"
     },
     {
       "name": "Montana",
       "abbreviation": "MT",
       "statehood_date":"November 8, 1889",
-      "capital": ""
+      "capital": "Helana"
     },
     {
       "name": "Nebraska",
       "abbreviation": "NE",
       "statehood_date":"March 1, 1867",
-      "capital": ""
+      "capital": "Lincoln"
     },
     {
       "name": "Nevada",
       "abbreviation": "NV",
       "statehood_date":"October 31, 1864",
-      "capital": ""
+      "capital": "Carson City"
     },
     {
       "name": "New Hampshire",
       "abbreviation": "NH",
       "statehood_date":"June 21, 1788",
-      "capital": ""
+      "capital": "Concord"
     },
     {
       "name": "New Jersey",
       "abbreviation": "NJ",
       "statehood_date":"December 18, 1787",
-      "capital": ""
+      "capital": "Trenton"
     },
     {
       "name": "New Mexico",
       "abbreviation": "NM",
       "statehood_date":"January 6, 1912",
-      "capital": ""
+      "capital": "Santa Fe"
     },
     {
       "name": "New York",
       "abbreviation": "NY",
       "statehood_date":"July 26, 1788",
-      "capital": ""
+      "capital": "Albany"
     },
     {
       "name": "North Carolina",
       "abbreviation": "NC",
       "statehood_date":"November 21, 1789",
-      "capital": ""
+      "capital": "Raleigh"
     },
     {
       "name": "North Dakota",
       "abbreviation": "ND",
       "statehood_date":"November 2, 1889",
-      "capital": ""
+      "capital": "Bismarck"
     },
     {
       "name": "Ohio",
       "abbreviation": "OH",
       "statehood_date":"March 1, 1803",
-      "capital": ""
+      "capital": "Columbus"
     },
     {
       "name": "Oklahoma",
       "abbreviation": "OK",
       "statehood_date":"November 16, 1907",
-      "capital": ""
+      "capital": "Oklahoma City"
     },
     {
       "name": "Oregon",
       "abbreviation": "OR",
       "statehood_date":"February 14, 1859",
-      "capital": ""
+      "capital": "Salem"
     },
     {
       "name": "Pennsylvania",
       "abbreviation": "PA",
       "statehood_date":"December 12, 1787",
-      "capital": ""
+      "capital": "Harrisburg"
     },
     {
       "name": "Rhode Island",
       "abbreviation": "RI",
       "statehood_date":"May 29, 1790",
-      "capital": ""
+      "capital": "Providence"
     },
     {
       "name": "South Carolina",
       "abbreviation": "SC",
       "statehood_date":"May 23, 1788",
-      "capital": ""
+      "capital": "Columbia"
     },
     {
       "name": "South Dakota",
       "abbreviation": "SD",
       "statehood_date":"November 2, 1889",
-      "capital": ""
+      "capital": "Pierre"
     },
     {
       "name": "Tennessee",
       "abbreviation": "TN",
-      "statehood_date":"June 1 1796",
-      "capital": ""
+      "statehood_date":"June 1, 1796",
+      "capital": "Nashville"
     },
     {
       "name": "Texas",
       "abbreviation": "TX",
       "statehood_date":"December 29, 1845",
-      "capital": ""
+      "capital": "Austin"
     },
     {
       "name": "Utah",
       "abbreviation": "UT",
       "statehood_date":"January 4, 1896",
-      "capital": ""
+      "capital": "Salt Lake City"
     },
     {
       "name": "Vermont",
       "abbreviation": "VT",
       "statehood_date":"March 4, 1790",
-      "capital": ""
+      "capital": "Montpelier"
     },
     {
       "name": "Virginia",
       "abbreviation": "VA",
       "statehood_date":"June 25, 1788",
-      "capital": ""
+      "capital": "Richmond"
     },
     {
       "name": "Washington",
       "abbreviation": "WA",
       "statehood_date":"November 11, 1889",
-      "capital": ""
+      "capital": "Olympia"
     },
     {
       "name": "West Virginia",
       "abbreviation": "WV",
       "statehood_date":"June 20, 1863",
-      "capital": ""
+      "capital": "Charleston"
     },
     {
       "name": "Wisconsin",
       "abbreviation": "WI",
       "statehood_date":"May 29, 1848",
-      "capital": ""
+      "capital": "Madison"
     },
     {
-      "name": "ning",
+      "name": "Wyoming",
       "abbreviation": "WY",
       "statehood_date":"July 10, 1890",
-      "capital": ""
+      "capital": "Cheyenne"
     }
   ]
 }

@@ -2,13 +2,16 @@
   "schema": {
     "properties": {
       "letter": {
-        "title": "letter"
+        "title": "letter",
+        "type": "string"
       },
       "name": {
-        "title": "name"
+        "title": "name",
+        "type": "string"
       },
       "syllables": {
-        "title": "syllables"
+        "title": "syllables",
+        "type": "string"
       }
     }
   },
