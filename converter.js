@@ -13,8 +13,10 @@ import {parse, isValid} from 'date-fns'
 async function doit(options) {
     let input = await fs.readFile(options.input)
     input = JSON.parse(input)
-    // console.log(input[options.start])
-    let output = input[options.start].map(item => {
+    let start = input
+    if(options.start) start = input[options.start]
+
+    let output = start.map(item => {
         let outem = {}
         Object.entries(options.fields).forEach(field => {
             let [in_name,out_name] = field
@@ -27,15 +29,15 @@ async function doit(options) {
 }
 
 doit({
-    input: 'datasets/scratch.json',
+    input: 'datasets/worldpopulation.json',
     output: 'output.json',
-    start:'elements',
     fields:{
-        name:'name',
-        number:"number",
-        atomic_mass:'weight',
-        symbol:'symbol',
-        "discovered_by":"discovered_by",
-        "source":"provenance"
+        "country":'name',
+        "population":"population",
+        // number:"number",
+        // atomic_mass:'weight',
+        // symbol:'symbol',
+        // "discovered_by":"discovered_by",
+        // "source":"provenance"
     }
 }).then(()=>console.log("done"))

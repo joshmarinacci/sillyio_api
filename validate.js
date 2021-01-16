@@ -16,7 +16,7 @@ async function validate_dataset(file) {
     console.log("validating",file)
     let json = JSON.parse(bytes.toString())
     assert(json,'json missing')
-    assert(json.schema,'schema missing')
+    assert(json.schema,`${file}: schema missing`)
     assert(json.schema.properties,'schema properties missing')
     assert(Object.keys(json.schema.properties).length>0,`${file} schema.properties empty`)
 
@@ -31,7 +31,10 @@ async function validate_dataset(file) {
         props.forEach(prop => {
             let [name, def] = prop
             let value = item[name]
-            assert(value,`${file} item ${JSON.stringify(item)} missing prop ${name}`)
+            if(!value) {
+                console.warn(`${file} item ${JSON.stringify(item)} missing prop ${name}`)
+                return
+            }
             if(def.type === 'number') {
                 assert(Number.parseFloat(item[name]),`${file} item ${JSON.stringify(item)} couldn't parse value of ${value}`)
             }
@@ -39,7 +42,7 @@ async function validate_dataset(file) {
                 // if property is date, check not empty, check can parse, warn
                 let now = new Date()
                 let parsed = parse(value,def.format,now)
-                assert(isValid(parsed),`date isn't valid: ${value} by format ${def.format}`)
+                assert(isValid(parsed),`${file} date isn't valid: ${value} by format ${def.format}`)
             }
         })
     })
