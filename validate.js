@@ -31,12 +31,14 @@ async function validate_dataset(file) {
         props.forEach(prop => {
             let [name, def] = prop
             let value = item[name]
-            if(!value) {
+            if(!item.hasOwnProperty(name)) {
                 console.warn(`${file} item ${JSON.stringify(item)} missing prop ${name}`)
                 return
             }
             if(def.type === 'number') {
-                assert(Number.parseFloat(item[name]),`${file} item ${JSON.stringify(item)} couldn't parse value of ${value}`)
+                let value = item[name]
+                let parsed = Number.parseFloat(item[name])
+                assert(!Number.isNaN(parsed),`${file} item ${JSON.stringify(item)} couldn't parse value of ${value}`)
             }
             if(def.type === 'date') {
                 // if property is date, check not empty, check can parse, warn

@@ -15,13 +15,27 @@ async function doit(options) {
     input = JSON.parse(input)
     let start = input
     if(options.start) start = input[options.start]
+    start = start.filter(item => {
+        if(item.status.current === 'completed') return true
+        return false
+    })
 
+    let count= 0
     let output = start.map(item => {
         let outem = {}
         Object.entries(options.fields).forEach(field => {
             let [in_name,out_name] = field
-            outem[out_name] = item[in_name]
+            // console.log("checking",in_name.split("."))
+            let parts = in_name.split('.')
+            let value = item
+            parts.forEach(part => {
+                value = value[part]
+            })
+            // console.log("final value",value)
+            outem[out_name] = value
         })
+        // count++
+        // if(count > 100) throw new Error()
         return outem
     })
     // console.log(output)
@@ -29,15 +43,19 @@ async function doit(options) {
 }
 
 doit({
-    input: 'datasets/worldpopulation.json',
+    input: 'scratch.json',
     output: 'output.json',
     fields:{
-        "country":'name',
-        "population":"population",
+        "name":'name',
+        "statistics.floors above":'floors',
+        "statistics.height":'height',
+        "statistics.rank":'rank',
+        "status.completed.year":'completed_date'
+        // "population":"population",
         // number:"number",
         // atomic_mass:'weight',
         // symbol:'symbol',
         // "discovered_by":"discovered_by",
         // "source":"provenance"
     }
-}).then(()=>console.log("done"))
+}).then(()=>console.log("done")).catch(e => console.error(e))
