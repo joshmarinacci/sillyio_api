@@ -1,0 +1,39 @@
+{
+  "schema": {
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "rarity": {
+        "title": "Rarity",
+        "type": "string",
+        "format": "enum",
+        "values": [
+          "basic",
+          "rare",
+          "epic",
+          "legendary",
+          "mythical"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Dog",
+      "rarity": "basic",
+      "_id": "item_6741045"
+    },
+    {
+      "name": "Cat",
+      "rarity": "basic",
+      "_id": "item_1408585"
+    },
+    {
+      "name": "Chicken",
+      "rarity": "basic",
+      "_id": "item_4722468"
+    }
+  ]
+}
