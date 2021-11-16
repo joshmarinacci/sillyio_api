@@ -21,6 +21,10 @@
         "title": "Egg",
         "type": "string"
       },
+      "world": {
+        "title": "World",
+        "type": "string"
+      },
       "normal_price": {
         "title": "Normal Egg Price",
         "type": "number",
@@ -46,7 +50,8 @@
       "egg": "Cracked Egg",
       "normal_price": 300,
       "gold_price": 3000,
-      "chance": 0.28
+      "chance": 0.28,
+      "world": "Spawn World"
     },
     {
       "name": "Cat",
@@ -55,7 +60,8 @@
       "egg": "Cracked Egg",
       "normal_price": 300,
       "gold_price": 2700,
-      "chance": 0.28
+      "chance": 0.28,
+      "world": "Spawn World"
     },
     {
       "name": "Chicken",
@@ -64,16 +70,18 @@
       "chance": 0.15,
       "egg": "Spotted Egg",
       "normal_price": 1000,
-      "gold_price": 9000
+      "gold_price": 9000,
+      "world": "Spawn World"
     },
     {
       "name": "Gleebo The Alien",
       "rarity": "basic",
-      "egg": "Alien Egg ",
+      "egg": "Martian Egg ",
       "normal_price": 24000000,
       "gold_price": 216000000,
       "chance": -1,
-      "_id": "item_2069127"
+      "_id": "item_2069127",
+      "world": "Tech World"
     },
     {
       "name": "Bleebo The Alien",
@@ -82,7 +90,8 @@
       "normal_price": 24000000,
       "gold_price": 216000000,
       "chance": 0.9400000000000001,
-      "_id": "item_3156653"
+      "_id": "item_3156653",
+      "world": "Tech World"
     },
     {
       "name": "Nine Eyed Lion",
@@ -91,7 +100,8 @@
       "normal_price": 24000000,
       "gold_price": 216000000,
       "chance": 0.0033000000000000004,
-      "_id": "item_7663048"
+      "_id": "item_7663048",
+      "world": "Tech World"
     },
     {
       "name": "Robot",
@@ -100,7 +110,8 @@
       "normal_price": 115000,
       "gold_price": 1030000,
       "chance": 0.03,
-      "_id": "item_1320773"
+      "_id": "item_1320773",
+      "world": "Tech World"
     },
     {
       "name": "Cyber Fox",
@@ -109,7 +120,8 @@
       "normal_price": 115000,
       "gold_price": 1030000,
       "chance": 0.97,
-      "_id": "item_7419196"
+      "_id": "item_7419196",
+      "world": "Tech World"
     },
     {
       "name": "Happy Computer",
@@ -118,7 +130,8 @@
       "normal_price": 115000,
       "gold_price": 1030000,
       "chance": "0.39",
-      "_id": "item_7969571"
+      "_id": "item_7969571",
+      "world": "Tech World"
     },
     {
       "name": "Blue Fluffy",
@@ -127,7 +140,18 @@
       "normal_price": 172000000,
       "gold_price": 1550000000,
       "chance": 0.0033000000000000004,
-      "_id": "item_4817792"
+      "_id": "item_4817792",
+      "world": "Tech World"
+    },
+    {
+      "name": "Astronaut Cat",
+      "rarity": "rare",
+      "egg": "Martian Egg",
+      "world": "Tech World",
+      "normal_price": 62500000,
+      "gold_price": 562000000,
+      "chance": 0.05,
+      "_id": "item_1773848"
     }
   ]
 }
