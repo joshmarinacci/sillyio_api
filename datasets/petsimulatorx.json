@@ -16,6 +16,25 @@
           "legendary",
           "mythical"
         ]
+      },
+      "egg": {
+        "title": "Egg",
+        "type": "string"
+      },
+      "normal_price": {
+        "title": "Normal Egg Price",
+        "type": "number",
+        "format": "integer"
+      },
+      "gold_price": {
+        "title": "Golden Egg Price",
+        "type": "number",
+        "format": "integer"
+      },
+      "chance": {
+        "title": "chance",
+        "type": "number",
+        "format": "percent"
       }
     }
   },
@@ -23,17 +42,92 @@
     {
       "name": "Dog",
       "rarity": "basic",
-      "_id": "item_6741045"
+      "_id": "item_6741045",
+      "egg": "Cracked Egg",
+      "normal_price": 300,
+      "gold_price": 3000,
+      "chance": 0.28
     },
     {
       "name": "Cat",
       "rarity": "basic",
-      "_id": "item_1408585"
+      "_id": "item_1408585",
+      "egg": "Cracked Egg",
+      "normal_price": 300,
+      "gold_price": 2700,
+      "chance": 0.28
     },
     {
       "name": "Chicken",
       "rarity": "basic",
-      "_id": "item_4722468"
+      "_id": "item_4722468",
+      "chance": 0.15,
+      "egg": "Spotted Egg",
+      "normal_price": 1000,
+      "gold_price": 9000
+    },
+    {
+      "name": "Gleebo The Alien",
+      "rarity": "basic",
+      "egg": "Alien Egg ",
+      "normal_price": 24000000,
+      "gold_price": 216000000,
+      "chance": -1,
+      "_id": "item_2069127"
+    },
+    {
+      "name": "Bleebo The Alien",
+      "rarity": "basic",
+      "egg": "Alien Egg",
+      "normal_price": 24000000,
+      "gold_price": 216000000,
+      "chance": 0.9400000000000001,
+      "_id": "item_3156653"
+    },
+    {
+      "name": "Nine Eyed Lion",
+      "rarity": "epic",
+      "egg": "Alien Egg",
+      "normal_price": 24000000,
+      "gold_price": 216000000,
+      "chance": 0.0033000000000000004,
+      "_id": "item_7663048"
+    },
+    {
+      "name": "Robot",
+      "rarity": "rare",
+      "egg": "Dark Tech Egg",
+      "normal_price": 115000,
+      "gold_price": 1030000,
+      "chance": 0.03,
+      "_id": "item_1320773"
+    },
+    {
+      "name": "Cyber Fox",
+      "rarity": "basic",
+      "egg": "Dark Tech Egg",
+      "normal_price": 115000,
+      "gold_price": 1030000,
+      "chance": 0.97,
+      "_id": "item_7419196"
+    },
+    {
+      "name": "Happy Computer",
+      "rarity": "epic",
+      "egg": "Dark Tech Egg",
+      "normal_price": 115000,
+      "gold_price": 1030000,
+      "chance": "0.39",
+      "_id": "item_7969571"
+    },
+    {
+      "name": "Blue Fluffy",
+      "rarity": "epic",
+      "egg": "Planet Egg",
+      "normal_price": 172000000,
+      "gold_price": 1550000000,
+      "chance": 0.0033000000000000004,
+      "_id": "item_4817792"
     }
   ]
 }
