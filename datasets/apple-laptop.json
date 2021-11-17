@@ -1,0 +1,31 @@
+{
+  "schema": {
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "release_date": {
+        "title": "Released",
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "model_numbers": {
+        "title": "Model Numbers",
+        "type": "array",
+        "array-type": "string"
+      },
+      "last_os": {
+        "title": "Last OS supported",
+        "type": "number",
+        "format": "integer"
+      },
+      "weight": {
+        "title": "Weight",
+        "type": "number",
+        "unit": "gram"
+      }
+    }
+  },
+  "items": []
+}
