@@ -15,9 +15,9 @@ export class JSONCache {
         return Promise.all(dirs.map(async(file) => {
             let id = path.basename(file,'.json')
             let pth = path.join(this.dir, file)
-            l(`reading file ${pth} to ${id}`)
             let str = await fs.readFile(pth)
             try {
+                l(`reading file ${pth} to ${id}`)
                 this._cached[file] = JSON.parse(str.toString())
             } catch (e) {
                 l(`error happened ${e}`)
