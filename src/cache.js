@@ -17,7 +17,7 @@ export class JSONCache {
             let pth = path.join(this.dir, file)
             l(`reading file ${pth} to ${id}`)
             let str = await fs.readFile(pth)
-            l("read the raw data",str)
+            l("read the raw data",str.toString())
             try {
                 this._cached[file] = JSON.parse(str.toString())
             } catch (e) {
