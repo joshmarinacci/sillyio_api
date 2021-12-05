@@ -1,0 +1,52 @@
+{
+  "schema": {
+    "properties": {
+      "name": {
+        "title": "name",
+        "type": "string"
+      },
+      "size": {
+        "title": "size",
+        "type": "number",
+        "format": "integer"
+      },
+      "colors": {
+        "title": "colors",
+        "type": "array",
+        "array-type": "string"
+      }
+    }
+  },
+  "items": [
+    {
+      "title": "simple",
+      "colors": [
+        "#ff00ff", "#ff0000",
+        "#ffff00", "#00ff00",
+        "#00ffff", "#0000ff",
+        "#ffffff", "#000000"
+      ]
+    },
+    {
+      "title": "pico8",
+      "colors": [
+        "#000000",
+        "#1D2B53",
+        "#7E2553",
+        "#008751",
+        "#AB5236",
+        "#5F574F",
+        "#C2C3C7",
+        "#FFF1E8",
+        "#FF004D",
+        "#FFA300",
+        "#FFEC27",
+        "#00E436",
+        "#29ADFF",
+        "#83769C",
+        "#FF77A8",
+        "#FFCCAA"
+      ]
+    }
+  ]
+}
