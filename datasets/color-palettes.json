@@ -20,15 +20,21 @@
   "items": [
     {
       "title": "simple",
+      "size": 8,
       "colors": [
-        "#ff00ff", "#ff0000",
-        "#ffff00", "#00ff00",
-        "#00ffff", "#0000ff",
-        "#ffffff", "#000000"
+        "#ff00ff",
+        "#ff0000",
+        "#ffff00",
+        "#00ff00",
+        "#00ffff",
+        "#0000ff",
+        "#ffffff",
+        "#000000"
       ]
     },
     {
       "title": "pico8",
+      "size": 16,
       "colors": [
         "#000000",
         "#1D2B53",
