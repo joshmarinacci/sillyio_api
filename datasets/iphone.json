@@ -23,7 +23,7 @@
       "weight": {
         "title": "Weight",
         "type": "number",
-        "unit": "gram",
+        "unit": "gram"
       }
     }
   },
